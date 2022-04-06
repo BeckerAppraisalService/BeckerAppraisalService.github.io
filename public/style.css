@@ -3,6 +3,7 @@ body
     margin: 0;
     padding: 0;
     background-color: #e7e6d9;
+    font-family: 'Nunito', sans-serif; 
 }
 
 #column
@@ -91,6 +92,7 @@ body
     align-items: center;
     width: 100%;
     z-index: 11;
+    height: auto;
 }
 
 #row1 img
@@ -145,6 +147,7 @@ body
     position: absolute;
     bottom: 20px;
     z-index: 11;
+    height: 150px;
 }
 
 #row3 div
@@ -186,6 +189,7 @@ body
     #row1 h1
     {
         padding: 20px 15px;
+        flex: 1.2em 1 0;
     }    
 }
 
@@ -205,6 +209,7 @@ body
     #row1 h1
     {
         padding: 20px 15px;
+        flex: 1.2em 1 0;
     }
 
     #cardbox
@@ -232,6 +237,7 @@ body
     #row1 h1
     {
         padding: 15px 5px;
+        flex: 1.2em 1 0;
     }
 
     #cardbox
