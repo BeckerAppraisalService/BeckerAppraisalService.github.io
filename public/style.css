@@ -167,7 +167,7 @@ body
 
 }
 
-@media only screen and (min-width: 800px) and (max-width: 999px)
+@media only screen and (min-width: 940px) and (max-width: 1020px)
 {
     #column
     {
@@ -186,7 +186,7 @@ body
     }    
 }
 
-@media only screen and (min-width: 400px) and (max-width: 799px)
+@media only screen and (min-width: 460px) and (max-width: 939px)
 {
     #column
     {
@@ -207,13 +207,13 @@ body
     #cardbox
     {
         max-width: 580px;
-        min-width: 400px;
+        min-width: 456px;
         margin: auto;
     }
     
 }
 
-@media only screen and (max-width: 399px)
+@media only screen and (max-width: 459px)
 {
     #column
     {
@@ -242,7 +242,7 @@ body
 .block
 {
     position: relative;
-    width: 192px;
+    width: 224px;
     height: 410px;
     background-color: white;
     box-shadow: 0 0 4px 1px gray;
@@ -259,7 +259,7 @@ body
 {
     position: relative;
     z-index: 0;
-    width: 192px;
+    width: 224px;
     height: 160px;
     overflow: hidden;
 }
