@@ -97,10 +97,10 @@ body
 
 #row1 img
 {
-    height: 85px;
-    width: 286px;
+    height: 125px;
+    width: 270px;
     background-color: white;
-    padding: 20px 7px;
+    padding: 5px 7px;
     margin: 5px;
     box-shadow: 0 0 8px 1px gray;
 }
@@ -111,7 +111,7 @@ body
     margin: 5px;
     background-color: rgba(0, 46, 86, 0.9);
     text-align: center;
-    padding: 40px 15px;
+    padding: 46px 15px;
     box-shadow: 0 0 8px 1px gray;
     color: white;
     max-width: 600px;
@@ -179,7 +179,7 @@ body
     padding: 10px 10px;
     background-color: white;
     box-shadow: 0 0 4px 1px gray;
-    margin: 12px;
+    margin: 13px;
 }
 
 @media only screen and (min-width: 940px) and (max-width: 1020px)
