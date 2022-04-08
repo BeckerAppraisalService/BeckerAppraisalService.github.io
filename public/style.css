@@ -97,10 +97,10 @@ body
 
 #row1 img
 {
-    height: 125px;
-    width: 270px;
+    height: 120px;
+    width: 210px;
     background-color: white;
-    padding: 5px 7px;
+    padding: 7px 7px;
     margin: 5px;
     box-shadow: 0 0 8px 1px gray;
 }
