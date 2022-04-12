@@ -4,7 +4,7 @@ We have over 34 years of experience in all types of residential valuation and re
 
 Click on the link below for our list of fees.
 
-[AppraisalFees.pdf](img/appraisalfees.pdf)
+[AppraisalFees.pdf](md/appraisalfees.pdf)
 
 Order appraisals online through our quick and easy online Appraisal Request Form!
 
