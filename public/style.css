@@ -31,6 +31,17 @@ body
     z-index: 1;
 }
 
+#miniheader
+{
+    height: 350px;
+    z-index: 1;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 #backgrounds
 {
     position: absolute;
@@ -135,6 +146,7 @@ body
     padding: 20px 15px;
     box-shadow: 0 0 8px 1px gray;
     margin: 2px;
+    color: black;
 }
 
 #row3
@@ -175,6 +187,14 @@ body
 }
 
 #about
+{
+    padding: 10px 10px;
+    background-color: white;
+    box-shadow: 0 0 4px 1px gray;
+    margin: 13px;
+}
+
+#subpage-body
 {
     padding: 10px 10px;
     background-color: white;
@@ -236,6 +256,10 @@ body
         margin: 0 auto 10px;
     }
     
+    #miniheader
+    {
+        height: 420px;
+    }
 }
 
 @media only screen and (max-width: 459px)
@@ -269,6 +293,10 @@ body
         margin: 10px auto 20px;
     }
     
+    #miniheader
+    {
+        height: 420px;
+    }
 }
 
 .block
