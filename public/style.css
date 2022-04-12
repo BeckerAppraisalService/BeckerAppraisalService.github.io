@@ -188,7 +188,7 @@ body
 
 #about
 {
-    padding: 10px 10px;
+    padding: 10px 25px;
     background-color: white;
     box-shadow: 0 0 4px 1px gray;
     margin: 13px;
@@ -196,7 +196,7 @@ body
 
 #subpage-body
 {
-    padding: 10px 10px;
+    padding: 15px 25px;
     background-color: white;
     box-shadow: 0 0 4px 1px gray;
     margin: 13px;
@@ -343,4 +343,9 @@ body
 {
     height: 10vh;
     background-color: #002E56;
+}
+
+iframe
+{
+    width: 100%;
 }
