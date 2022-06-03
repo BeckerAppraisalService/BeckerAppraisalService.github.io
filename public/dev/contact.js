@@ -1,0 +1,1 @@
+mdLoader("md/page-contact.md", dest);
