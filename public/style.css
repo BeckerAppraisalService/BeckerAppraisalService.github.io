@@ -340,8 +340,10 @@ body
 
 #foot
 {
-    height: 10vh;
+    height: 80px;
     background-color: #002E56;
+    padding: 10px;
+    color: white;
 }
 
 iframe
