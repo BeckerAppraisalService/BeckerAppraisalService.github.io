@@ -302,7 +302,7 @@ body
 {
     position: relative;
     width: 224px;
-    height: 450px;
+    height: 554px;
     background-color: white;
     box-shadow: 0 0 4px 1px gray;
     margin: 10px 2px;
@@ -319,7 +319,7 @@ body
     position: relative;
     z-index: 0;
     width: 224px;
-    height: 168px;
+    height: 272px;
     overflow: hidden;
 }
 
@@ -340,8 +340,10 @@ body
 
 #foot
 {
-    height: 10vh;
+    height: 80px;
     background-color: #002E56;
+    padding: 10px;
+    color: white;
 }
 
 iframe
