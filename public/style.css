@@ -201,6 +201,36 @@ body
     margin: 13px;
 }
 
+#subpage-body > form
+{
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 97%;
+    font-size: 1.6em;
+    height: 50em;
+}
+
+#subpage-body > form > h1
+{
+    align-self: center;
+}
+
+#subpage-body > form > label
+{
+    display: block;
+}
+
+#subpage-body > form > input
+{
+    height: 1.3em;
+    font-size: 1em;
+}
+
+#submit { height: 1.7em !important; width: 12em; padding: 5px;}
+
 @media only screen and (min-width: 940px) and (max-width: 1020px)
 {
     #column

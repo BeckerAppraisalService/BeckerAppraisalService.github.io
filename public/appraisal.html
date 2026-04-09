@@ -35,51 +35,55 @@
             <div class="section">
                 <div id="subpage-body">
                     <form action="https://formspree.io/f/xlgoyrre" method="POST">
-                        <label>
+                        <h1>Appraisal Request First Contact</h1>
+                        <span>
+                            All address information is for the Subject Property!
+                        </span>
+                        <label for="email">
                             Email: 
-                            <input type="email" name="email">
                         </label>
-                        <label>
+                        <input type="email" name="email">
+                        <label for="firstname">
                             First Name: 
-                            <input type="text" name="firstname">
                         </label>
-                        <label>
+                        <input type="text" name="firstname">
+                        <label for="lastname">
                             Last Name: 
-                            <input type="text" name="lastname">
                         </label>
-                        <label>
-                            Street Address of Subject Property, Address Line 1: 
-                            <input type="text" name="addr1">
+                        <input type="text" name="lastname">
+                        <label for="addr1">
+                            Street Address Line 1: 
                         </label>
-                        <label>
-                            Street Address of Subject Property, Address Line 2: 
-                            <input type="text" name="addr2">
+                        <input type="text" name="addr1">
+                        <label for="addr2">
+                            Street Address Line 2: 
                         </label>
-                        <label>
-                            Zip Code of Subject Property (5 digits): 
-                            <input type="number" name="zip">
+                        <input type="text" name="addr2">
+                        <label for="zip">
+                            Zip Code (5 digits): 
                         </label>
-                        <label>
-                            State Mailing Abbrv of Subject Property (2 letters): 
-                            <input type="text" name="state">
+                        <input type="number" name="zip">
+                        <label for="state">
+                            State Mailing Abbrv (2 letters): 
                         </label>
-                        <label>
+                        <input type="text" name="state">
+                        <label for="phoneday">
                             Daytime Phone: 
-                            <input type="number" name="phoneday">
                         </label>
-                        <label>
+                        <input type="tel" name="phoneday">
+                        <label for="phoneeve">
                             Evening Phone: 
-                            <input type="text" name="phoneeve">
                         </label>
-                        <label>
+                        <input type="tel" name="phoneeve">
+                        <label for="fee">
                             Specify fee: 
-                            <input type="text" name="fee">
                         </label>
-                        <label>
+                        <input type="text" name="fee">
+                        <label for="comments">
                             Comments: 
-                            <input type="textarea" name="comments">
                         </label>
-                        
+                        <input type="textarea" name="comments">
+                        <input id="submit" type="submit" value="Submit">
                     </form>
                 </div>
             </div>
