@@ -12,7 +12,7 @@
         <link href="style.css" type="text/css" rel="stylesheet" />
         <script defer="true" src="dev/showdown.min.js"></script>
         <script defer="true" src="dev/dev.js"></script>
-        <script defer="true" src="dev/appraisal.js"></script>
+        <!--<script defer="true" src="dev/appraisal.js"></script>-->
     </head>
     <body>
     	<div id="column">
@@ -34,6 +34,53 @@
             </div>
             <div class="section">
                 <div id="subpage-body">
+                    <form action="https://formspree.io/f/xlgoyrre" method="POST">
+                        <label>
+                            Email: 
+                            <input type="email" name="email">
+                        </label>
+                        <label>
+                            First Name: 
+                            <input type="text" name="firstname">
+                        </label>
+                        <label>
+                            Last Name: 
+                            <input type="text" name="lastname">
+                        </label>
+                        <label>
+                            Street Address of Subject Property, Address Line 1: 
+                            <input type="text" name="addr1">
+                        </label>
+                        <label>
+                            Street Address of Subject Property, Address Line 2: 
+                            <input type="text" name="addr2">
+                        </label>
+                        <label>
+                            Zip Code of Subject Property (5 digits): 
+                            <input type="number" name="zip">
+                        </label>
+                        <label>
+                            State Mailing Abbrv of Subject Property (2 letters): 
+                            <input type="text" name="state">
+                        </label>
+                        <label>
+                            Daytime Phone: 
+                            <input type="number" name="phoneday">
+                        </label>
+                        <label>
+                            Evening Phone: 
+                            <input type="text" name="phoneeve">
+                        </label>
+                        <label>
+                            Specify fee: 
+                            <input type="text" name="fee">
+                        </label>
+                        <label>
+                            Comments: 
+                            <input type="textarea" name="comments">
+                        </label>
+                        
+                    </form>
                 </div>
             </div>
             <div class="section" id="foot"></div>
