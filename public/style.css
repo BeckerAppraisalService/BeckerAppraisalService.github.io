@@ -226,10 +226,11 @@ body
 #subpage-body > form > input
 {
     height: 1.3em;
-    font-size: 1em;
+    font-size: 0.8em;
+    width: 95%;
 }
 
-#submit { height: 1.7em !important; width: 12em; padding: 5px;}
+#submit { height: 4em !important; width: 96% !important;}
 
 @media only screen and (min-width: 940px) and (max-width: 1020px)
 {
